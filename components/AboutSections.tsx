@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { WHY_CARDS, WHY_POINTS } from "@/lib/data";
 
 export function WhyStandOut() {

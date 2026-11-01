@@ -29,8 +29,7 @@ export function PackagesSection() {
                   <h3 className="text-xl font-semibold text-[#111827]">{p.name}</h3>
                   <p className="mt-1 text-sm text-[rgba(17,24,39,0.5)]">{p.description}</p>
                 </div>
-                <span className="text-3xl">{p.icon}</span>
-              </div>
+                <span className="text-3xl">{p.icon}</span>              </div>
               <div className="mt-6 flex items-end gap-3">
                 <p className="text-[32px] font-bold leading-9 text-[#111827]">AED {p.price}</p>
                 <p className="pb-1 text-sm text-[rgba(17,24,39,0.5)]">

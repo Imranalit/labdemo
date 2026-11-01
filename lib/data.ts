@@ -17,6 +17,7 @@ export type Package = {
   price: number;
   testsIncluded: number;
   tag?: string;
+  icon?: string;
   featured?: boolean;
   tests: string[];
 };
